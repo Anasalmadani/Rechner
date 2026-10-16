@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 319
+  Height = 672
+  Top = 31
+  Width = 1104
+  Caption = 'Form1'
+  ClientHeight = 672
+  ClientWidth = 1104
+  OnCreate = FormCreate
+  object Edit1: TEdit
+    Left = 504
+    Height = 31
+    Top = 128
+    Width = 192
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 504
+    Height = 31
+    Top = 224
+    Width = 192
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Button1: TButton
+    Left = 872
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = '+'
+    TabOrder = 2
+    OnClick = PlusButtonClick
+  end
+  object Button2: TButton
+    Left = 872
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = '-'
+    TabOrder = 3
+    OnClick = MinusButtonClick
+  end
+  object Button3: TButton
+    Left = 872
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = '*'
+    TabOrder = 4
+    OnClick = MalButtonClick
+  end
+  object Button4: TButton
+    Left = 872
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = '/'
+    TabOrder = 5
+    OnClick = GeteiltButtonClick
+  end
+  object Button5: TButton
+    Left = 872
+    Height = 25
+    Top = 328
+    Width = 75
+    Caption = 'Clear'
+    TabOrder = 6
+    OnClick = ClearButtonClick
+  end
+  object Label1: TLabel
+    Left = 512
+    Height = 24
+    Top = 304
+    Width = 161
+    AutoSize = False
+    Caption = 'ErgebnisLabel'
+  end
+end
